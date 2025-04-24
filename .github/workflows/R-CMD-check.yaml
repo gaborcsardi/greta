@@ -54,7 +54,6 @@ jobs:
           extra-packages: any::rcmdcheck local::. rstudio/reticulate
           cache-version: 4
           upgrade: 'TRUE'
-          pak-version: devel
 
       - name: Install greta deps
         run: |
